@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#walpaper {
+  background: linear-gradient(166deg, #373737 0%, #252628 22.9%, #000309 100%),
+    #fff;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ellipse {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+}
+.display-result {
+  font-family: "Poppins", sans-serif;
+  color: #fbfbfb;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.display-input {
+  color: rgba(251, 251, 251, 0.5);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
